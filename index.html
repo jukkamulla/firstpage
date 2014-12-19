@@ -11,6 +11,12 @@
 			font-family: "Aquilinetwo";
 			src: url(./fonts/Aquilinetwo.ttf) format("truetype");
 			}
+		table {
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
 		</style>
 		<title> Welcome to my page</title> 
 	</head>
@@ -35,33 +41,49 @@
 			<li>May</li>
 			<li>December</li>
 		</ul>
-		<h3>Important dates of my family</h3>
-		<ul>
-			<li>March</li>
-				<ul>
-					<li>Dad's birthday</li>
-					<li>Brother's nameday</li>
-				</ul>
-			<li>April</li>
-				<ul>
-					<li>Adam's birthday</li>
-				</ul>
-			<li>July</li>
-				<ul>
-					<li>Sister's birtday</li>
-					<li>Sister's nameday</li>
-				</ul>
-			<li>September</li>
-				<ul>
-					<li>Mom's birthday</li>
-					<li>Brother's birthday</li>
-					<li>Mom's nameday</li>
-				</ul>
-			<li>December</li>
-				<ul>
-					<li>Dad's nameday</li>
-					<li>Adam' nameday</li>
-				</ul>
-		</ul>
+		<table style="border: 1px solid black">
+			<thead>
+				<tr>
+					<th colspan="2">Important dates of my family</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">March</td>
+					<td>Dad's birthday</td>
+				</tr>
+				<tr>
+					<td>Brother's nameday</td>
+				</tr>
+				<tr>
+					<td>April</td>
+					<td>Adam's birthday</td>
+				</tr>
+				<tr>
+					<td rowspan="2">July</td>
+					<td>Sister's birtday</td>
+				</tr>
+				<tr>
+					<td>Sister's nameday</td>
+				</tr>
+				<tr>
+					<td rowspan="3">September</td>
+					<td>Mom's birthday</td>
+				</tr>
+				<tr>
+					<td>Brother's birthday</td>
+				</tr>
+				<tr>
+					<td>Mom's nameday</td>
+				</tr>
+				<tr>
+					<td rowspan="2">December</td>
+					<td>Dad's nameday</td>
+				</tr>
+				<tr>
+					<td>Adam' nameday</td>
+				</tr>
+			</tbody>
+		</table>
 	</body>
 </html>
