@@ -13,6 +13,9 @@ table, th, td {
 	border: 1px solid black;
 }
 .img-circular{
+	position: relative;
+	top: 50px;
+	left: 50px;
 	width: 100px;
 	height: 100px;
 	background-image: url('../imgs/profile.jpg');
@@ -23,9 +26,6 @@ table, th, td {
 }
 body {
 	background-color: #BDC9AF;
-}
-div {
-	background-color: #AAB59E;
 }
 h2 {
 	font-family: Desyrel; 
@@ -45,11 +45,26 @@ strong {
 .orange {
 	color: #FF9933;
 }
-
-
-
-
-
+.left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	height: 200px;
+	background-color: #AAB59E;
+}
+.right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 80%;
+	height: 200px;
+	background-color: #AAB59E;
+}
+.content {
+	position: absolute;
+	top: 200px;
+}
 
 
 
