@@ -62,14 +62,14 @@ strong {
 	background-color: #AAB59E;
 }
 .content {
+	width: 100%;
 	position: absolute;
 	top: 200px;
 }
 .container {
-	width: 100%;
+	width: 300px;
 	margin-top: 50px;
-	margin-left: 400px;
+	margin: auto;
 }
-
 
 
