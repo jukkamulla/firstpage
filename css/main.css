@@ -1,16 +1,10 @@
-@font-face {
-	font-family: "Desyrel";
-	src: url(../fonts/desyrel.ttf) format("truetype");
-}
-@font-face {
-	font-family: "Aquilinetwo";
-	src: url(../fonts/Aquilinetwo.ttf) format("truetype");
-}
 html{
-	background-color: #1c1c1c;
+	padding: 0;
+	margin: 0;
 }
 body{
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 #bg01 {
 	height: 700px;
@@ -39,13 +33,12 @@ h2.content-header {
 	text-align: left;
 }
 h3 {
-	font-family: Aquilinetwo;
+	font-family: Aquilinetwo, sans-serif;
 }
 .header {
 	height: 200px;
-	background-color: #1c1c1c;
-}
-.container {
+	background-color: #212121;
+	padding: 50px;
 }
 
 .header-text {
@@ -54,7 +47,8 @@ h3 {
 	color: #aaaaaa;
 }
 .text {
-	margin: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
 	color: #b4b4b4;
 	font-family: 'Roboto', sans-serif;
 	line-height: 200%;
